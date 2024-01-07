@@ -1,34 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
 
 /* shared style */
-body{
+body {
     font-family: 'Open Sans', sans-serif;
-    
+    margin: 0;
+
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0% 10%;
+    margin: 0px 192px;
 }
 
-nav>ul{
+nav>ul {
     display: flex;
     align-items: center;
 }
 
-nav li{
+nav li {
     list-style: none;
-    margin-right: 51px;
+    margin-right: 50px;
 }
 
-nav a{
+nav a {
     text-decoration: none;
     color: #474747;
 }
 
-.btn-primary{
+.btn-primary {
     background: #FD6E0A;
     color: #FFF;
     border: 0;
@@ -37,30 +38,79 @@ nav a{
     font-weight: 700;
     padding: 18px;
 }
-.nav-title{
-    color: var(--Dark-01, #181818);
+
+.nav-title {
+    color: #181818;
     font-size: 45px;
     font-style: normal;
     font-weight: 800;
-    line-height: normal;
+    /* line-height: normal; */
 }
-.text-primary{
+
+.text-primary {
     color: #FD6E0A;
 }
 
-.banner{
-    padding: 0 10%;
+.banner {
+    margin: 0px 38px 0px 192px;
     display: flex;
-    margin: 0% 10%;
     width: auto;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.banner-content{
+.banner-content {
     width: 60%;
-    /* background-color: #181818; */
-    padding: 100px 50px;
+    padding-right: 20%;
 }
-.banner .profile-pic{
-    width: 40%;
+
+.banner-greeting {
+    margin-bottom: 0px;
+    font-size: 30px;
+}
+
+.banner-title {
+    margin-top: 0px;
+    font-size: 50px;
+}
+
+.banner .profile-pic {
+    width: 500px;
     /* background-color: #c34c4c; */
+}
+
+.header {
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-color: #FFF8F3;
+    /* padding: 0% 10%; */
+}
+
+/* About section */
+.about {
+    margin: 130px 192px;
+    padding: 10%;
+    color: #757575;
+    background-color: #FFF8F3;
+}
+
+.about-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.about-description{
+    color: #757575;
+    text-align: center;
+}
+
+.about-info-container{
+    display:flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+
 }
