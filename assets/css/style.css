@@ -84,10 +84,11 @@ nav a {
 }
 
 .header {
-    background-image: url(../images/header_bg.png);
+    background-image: url("../images/header_bg.png"), url("../images/developer.png");
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, left;
     background-color: #FFF8F3;
+    background-size: auto, 90px;
     /* padding: 0% 10%; */
 }
 
@@ -160,7 +161,7 @@ nav a {
 
 /* resume section*/
 .resume{
-    margin: 130px 230px 130px 277px;
+    margin: 130px 192px 130px 192px;
 }
 .resume-title{
     text-align: center;
@@ -197,4 +198,46 @@ nav a {
 .resume-item-description{
     color: #757575;
     font-size: 16px;
+}
+
+.download-cv{
+    text-align: center;
+    margin: 50px;
+}
+
+/* Footer section */
+.footer{
+    background-color: #FFF8F3;
+}
+.footer-container{
+    margin: 130px 192px 0 192px;
+    display: flex;
+    gap: 100px;
+
+}
+.footer-column{
+    padding: 60px;
+    width: 50%;
+}
+.footer-column-title{
+    font-size: 35px;
+}
+.footer-form input[type="text"], .footer-form input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    border: 0;
+    background: #FFF;
+    font-size: 16px;
+}
+.footer-form input[type="text"], .footer-form input[type="email"]{
+    height: 64px;
+    width: 100%;
+}
+
+.footer-form textarea{
+    height: 180px;
+    width: 100%;
 }
