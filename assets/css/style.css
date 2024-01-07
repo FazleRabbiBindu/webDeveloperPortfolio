@@ -68,6 +68,10 @@ nav a {
     margin-bottom: 0px;
     font-size: 30px;
 }
+.banner-description{
+    font-size: 18px;
+    color: #757575;
+}
 
 .banner-title {
     margin-top: 0px;
@@ -101,16 +105,54 @@ nav a {
     font-size: 35px;
     font-weight: 700;
 }
-.about-description{
+
+.about-description {
     color: #757575;
     text-align: center;
+    font-size: 18px;
 }
 
-.about-info-container{
-    display:flex;
+.about-info-container {
+    display: flex;
     justify-content: space-around;
 }
-.about-info{
+
+.about-info {
     text-align: center;
 
+}
+
+/* what I do section */
+.whatIdo {
+    margin: 0 345px 0 346px;
+    text-align: center;
+}
+
+.whatIdo-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+}
+
+.whatIdo-description {
+    padding: 10px;
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    /* 166.667% */
+}
+
+/* Skill container */
+.skill-container{
+    display: flex;
+    margin: 30px 0 30px 0;
+}
+.skill{
+    text-align: left;
+    background-color: #FFF;
+    padding: 32px 10px 0 10px;
+    margin: 0 5px;
+}
+.skill-description{
+    color: #757575;
 }
